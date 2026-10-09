@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home | KTU Reforge</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="home"><div class="main">
+<div class="crumb">Home › <b>Dashboard</b></div>
+<section class="card welcome">
+  <div class="photo">AS</div>
+  <div><h2>Welcome</h2>
+    <p>Std Name: <b id="stdName"></b></p><p>Reg No: <b id="stdReg"></b></p>
+    <a class="more" href="student.html">more info »</a></div>
+</section>
+<div class="btns"><a class="btn" href="student.html#feeSection">Fee Details</a><a class="btn" href="#" id="surakshaBtn">Suraksha</a></div>
+<div class="grid2">
+  <section class="card"><h3>Notice</h3><ul class="scroll" id="notices"></ul></section>
+  <section class="card"><h3>My Deadlines</h3><ul class="scroll" id="deadlines"></ul></section>
+  <section class="card"><h3>Course Progress <small>[current sem]</small></h3><div id="progress"></div></section>
+  <section class="card"><h3>Academic Calendar</h3>
+    <div class="calhead"><button id="prev" aria-label="Previous month">‹</button><b id="monthLabel"></b><button id="next" aria-label="Next month">›</button></div>
+    <div class="cal" id="cal"></div></section>
+</div>
+</div><script src="script.js"></script></body></html>

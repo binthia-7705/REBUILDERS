@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exam | KTU Reforge</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="exam"><div class="main">
+<div class="crumb">Exam › <b>My Exam</b></div>
+<section class="card"><h3>Attendance</h3>
+  <div class="att"><div id="semList"></div>
+  <div><h3 id="attTitle" style="font-size:14px"></h3>
+    <table><tr><th>Subject</th><th>Attendance</th></tr><tbody id="attRows"></tbody></table></div></div>
+</section>
+<section class="card"><h3>Timetable</h3>
+  <label>Semester <select id="ttSem"></select></label>
+  <table style="margin-top:10px"><tr><th>Code</th><th>Subject</th><th>Date</th></tr><tbody id="ttRows"></tbody></table>
+</section>
+<button class="side two" id="revOpen">Revaluation Reg</button>
+<dialog id="rev"><h3>Revaluation registration</h3>
+  <label>Subject<select id="revSub"></select></label>
+  <button class="btn fill" id="revSend">Register</button> <button class="btn" onclick="this.closest('dialog').close()">Cancel</button></dialog>
+</div><script src="script.js"></script></body></html>

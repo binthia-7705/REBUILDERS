@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Result | KTU Reforge</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="result"><div class="main">
+<div class="crumb">Result › <b>Current</b></div>
+<section class="card"><h3>Current</h3>
+  <div class="stats">
+    <div><small>CGPA</small><strong>8.86</strong></div>
+    <div><small>Failed</small><strong id="failed">0</strong></div>
+    <div><small>Total credit</small><strong>108 / 120</strong></div>
+    <div><small>Activity points</small><strong>62 / 120</strong></div>
+  </div></section>
+<section class="card"><h3>Sem Grade Card</h3>
+  <label>Semester <select id="gSem"></select></label>
+  <div id="gCard" hidden style="margin-top:12px">
+    <table><tr><th>Code</th><th>Subject</th><th>Credits</th><th>Grade</th><th>Result</th></tr><tbody id="gRows"></tbody></table></div>
+</section>
+</div><script src="script.js"></script></body></html>
