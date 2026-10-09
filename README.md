@@ -1,2 +1,3 @@
 # REBUILDERS
-improvement of ktu website
+
+KTU Reforge is a simplified redesign of the KTU student portal, built from the student’s own sketches. Instead of scattered menus, it groups everything into four clear pages: Home, Student, Exam and Result. The dashboard shows notices, deadlines, course progress and the calendar at a glance, with one-click access to fees, Suraksha and feedback. Attendance, timetable, grades and revaluation sit where students expect them. Built with plain HTML, CSS and JavaScript, it is fast, mobile-friendly and easy to navigate. Students find key information quicker, and miss fewer deadlines and announcements.
